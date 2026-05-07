@@ -117,7 +117,7 @@ karthik = {
 
 - 📌 **Machine Condition Monitoring Using TENG-Based Vibration Sensor** — KST 2026 · [DOI](https://doi.org/10.1109/KST67832.2026.11432374)
 - 📌 **Multimodal Content Moderation (MemeShield-1K)** — IEEE Transactions (submitted)
-- 📌 **+3 more IEEE conference papers** — [Google Scholar →](https://scholar.google.com/citations?user=OAu1sZEAAAAJ)
+- 📌 **+4 more IEEE conference papers** — [Google Scholar →](https://scholar.google.com/citations?user=OAu1sZEAAAAJ)
 
 ---
 
