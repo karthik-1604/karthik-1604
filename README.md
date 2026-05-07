@@ -1,128 +1,130 @@
-<h1 align="center">Achanta Satya Karthik</h1>
-<h3 align="center">Data Scientist · ML Engineer · 5× IEEE Author</h3>
-<h4 align="center">IIIT Naya Raipur · GPA 8.91 · Graduating May 2026</h4>
+<!-- Header with typing animation -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Achanta%20Satya%20Karthik&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%205×%20IEEE%20Author&descAlignY=55&descSize=18"/>
+</div>
 
-<p align="center">
-  <a href="https://linkedin.com/in/asatyakarthik"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:satyaachanta16@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://scholar.google.com/citations?user=OAu1sZEAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white"/></a>
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Building+ML+systems+for+the+real+world+%F0%9F%9A%80;RAG+pipelines+%7C+Predictive+Maintenance+%7C+GenAI;5%C3%97+IEEE+Published+%7C+IIIT+Naya+Raipur+%F0%9F%8E%93;Always+learning%2C+always+shipping+%F0%9F%94%A5" alt="Typing SVG" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://linkedin.com/in/asatyakarthik">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:satyaachanta16@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://scholar.google.com/citations?user=OAu1sZEAAAAJ">
+    <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=karthik-1604&style=for-the-badge&color=blueviolet" alt="profile views"/>
+</div>
+
+---
+
+## 🧑‍💻 About Me
+
+```python
+karthik = {
+    "role"        : "Data Scientist | ML Engineer",
+    "education"   : "B.Tech CSE @ IIIT Naya Raipur (GPA: 8.91)",
+    "graduating"  : "May 2026",
+    "publications": "5× IEEE Author 📄",
+    "interests"   : ["Predictive Maintenance", "RAG / GenAI", "Time Series", "Anomaly Detection"],
+    "currently"   : "Building ML systems for aerospace & industrial domains 🛩️⚙️",
+    "fun_fact"    : "I ranked 354th out of 75,000+ in Amazon ML Challenge 🏆"
+}
+```
 
 ---
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🛩️ AeroManual-RAG
-**Advanced RAG Pipeline for FAA Aerospace Manuals**
+| 🛩️ AeroManual-RAG | ⚙️ Predictive Maintenance |
+|---|---|
+| Advanced RAG pipeline over **2,223 pages** of FAA aerospace manuals | End-to-end **RUL prediction** for NASA turbofan engines |
+| Hybrid BM25 + FAISS · RRF Fusion · BGE Reranking | LSTM · TFT · Autoencoder Anomaly Detection |
+| **RAGAS Answer Relevancy: 0.875** ✅ | **LSTM RMSE: 15.42 · R² = 0.862** ✅ |
+| 16/16 pytest · FastAPI · Streamlit | SHAP Explainability · FastAPI Risk API |
+| [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/aeromanual-RAG) | [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/predictive-maintenance) |
 
-[![Repo](https://img.shields.io/badge/GitHub-aeromanual--RAG-181717?style=flat&logo=github)](https://github.com/karthik-1604/aeromanual-RAG)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=flat)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-- 📄 **2,223 pages** → 18,223 chunks (FAA AMT Handbooks)
-- 🔍 Hybrid **BM25 + FAISS** retrieval + RRF Fusion
-- 🎯 BGE Cross-Encoder Reranking + Query Rewriting
-- 📊 **RAGAS Answer Relevancy: 0.875**
-- ✅ 16/16 pytest tests passing
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Predictive Maintenance
-**RUL Prediction · NASA C-MAPSS Turbofan Engines**
-
-[![Repo](https://img.shields.io/badge/GitHub-predictive--maintenance-181717?style=flat&logo=github)](https://github.com/karthik-1604/predictive-maintenance)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189ABE?style=flat)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-- 🔢 LSTM: **RMSE 15.42 · R² = 0.862**
-- 🤖 LSTM Autoencoder anomaly detection (25/100 engines flagged correctly)
-- 📈 SHAP explainability · TFT on Kaggle GPU
-- 🚀 FastAPI: real-time risk classification (CRITICAL / HIGH / MEDIUM / LOW)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## 🧠 Tech Stack
+## 🛠️ Tech Stack
+
+<div align="center">
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-**ML / Deep Learning**
+**ML / DL**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189ABE?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBoost-189ABE?style=for-the-badge&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-**GenAI / NLP**
+**GenAI / RAG**
 
-![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/🦜_LangChain-00A67E?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-**Deployment**
+**Deploy / MLOps**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-fc6d26?style=for-the-badge&logo=git&logoColor=white)
 
----
-
-## 💼 Experience
-
-| Role | Company | Period |
-|---|---|---|
-| 🔬 Research Engineer Intern | RAAPID Inc (Louisville, KY) | Apr 2025 – Present |
-| 🤖 ML Intern | IIT (BHU) Varanasi | Feb 2025 – Present |
-| 🌍 Research Intern | University of Galway, Ireland | Oct 2024 – Dec 2024 |
-
----
-
-## 📄 Publications — 5× IEEE Author
-
-| Paper | Venue | Year |
-|---|---|---|
-| Machine Condition Monitoring Using TENG-Based Vibration Sensor | IEEE KST 2026 | 2026 |
-| Multimodal Content Moderation (MemeShield-1K) | IEEE Transactions (submitted) | 2025 |
-| + 3 more IEEE conference papers | — | 2024–2025 |
-
-📖 Full list → [Google Scholar](https://scholar.google.com/citations?user=OAu1sZEAAAAJ)
-
----
-
-## 🏆 Achievements
-
-- 🥇 **Amazon ML Challenge** — Ranked **354th / 75,000+** participants
-- 📊 **NPTEL** — Top **1%** in Intro to LLMs · Top **5%** in Pattern Recognition
-- 📝 **JEE Main** — Top **2 percentile** among 1M+ candidates
-- 🏅 **Head of Design** — Led club to *Best Club Award* 2023–24
-- 🔍 **Reviewer** — IEEE TENSYMP
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=karthik-1604&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik-1604&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=karthik-1604&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik-1604&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=karthik-1604&theme=tokyonight&hide_border=true" width="55%"/>
+</div>
 
 ---
 
-<p align="center">
-  <i>"Building ML systems that work in the real world — from aerospace document search to turbofan engine degradation."</i>
-</p>
+## 📄 IEEE Publications
+
+> *"If it's not published, did it even happen?"*
+
+- 📌 **Machine Condition Monitoring Using TENG-Based Vibration Sensor** — KST 2026 · [DOI](https://doi.org/10.1109/KST67832.2026.11432374)
+- 📌 **Multimodal Content Moderation (MemeShield-1K)** — IEEE Transactions (submitted)
+- 📌 **+3 more IEEE conference papers** — [Google Scholar →](https://scholar.google.com/citations?user=OAu1sZEAAAAJ)
+
+---
+
+## 🏆 Highlights
+
+<div align="center">
+
+🥇 **Amazon ML Challenge** — 354th / 75,000+ &nbsp;|&nbsp; 📊 **NPTEL Top 1%** in LLMs &nbsp;|&nbsp; 📝 **JEE Top 2%** among 1M+
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
