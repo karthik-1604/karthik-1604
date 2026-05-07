@@ -28,13 +28,19 @@
 
 ```python
 karthik = {
-    "role"        : "Data Scientist | ML Engineer",
-    "education"   : "B.Tech CSE @ IIIT Naya Raipur (GPA: 8.91)",
-    "graduating"  : "May 2026",
-    "publications": "5× IEEE Author 📄",
-    "interests"   : ["Predictive Maintenance", "RAG / GenAI", "Time Series", "Anomaly Detection"],
-    "currently"   : "Building ML systems for aerospace & industrial domains 🛩️⚙️",
-    "fun_fact"    : "I ranked 354th out of 75,000+ in Amazon ML Challenge 🏆"
+    "role"        : "ML Engineer · Data Scientist · Researcher",
+    "currently"   : "@ IIIT Naya Raipur — final year CSE",
+    "published"   : "5× IEEE Author across NLP, CV, sensors & GenAI ",
+    "interests"   : [
+                      "RAG & LLM Systems",
+                      "Time Series & Predictive Maintenance", 
+                      "Computer Vision",
+                      "NLP & Multimodal AI",
+                      "Whatever hard problem lands next 🤷"
+                    ],
+    "currently_building" : "Industrial AI + Aerospace GenAI pipelines",
+    "ask_me_about"       : "ML research, IEEE publishing, or breaking LLMs",
+    "fun_fact"           : "Ranked 354 / 75,000+ in Amazon ML Challenge "
 }
 ```
 
