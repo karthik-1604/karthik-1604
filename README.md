@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Building+ML+systems+for+the+real+world+%F0%9F%9A%80;RAG+pipelines+%7C+Predictive+Maintenance+%7C+GenAI;5%C3%97+IEEE+Published+%7C+IIIT+Naya+Raipur+%F0%9F%8E%93;Always+learning%2C+always+shipping+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=650&lines=Building+ML+systems+for+the+real+world+%F0%9F%9A%80;Causal+Inference+%7C+Video+AI+%7C+RAG+%2B+Agents;5%C3%97+IEEE+Published+%7C+IIIT+Naya+Raipur+%F0%9F%8E%93;Investigating+the+weird+results%2C+not+hiding+them+%F0%9F%94%8D" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -30,17 +30,17 @@
 karthik = {
     "role"        : "ML Engineer · Data Scientist · Researcher",
     "currently"   : "@ IIIT Naya Raipur — final year CSE",
-    "published"   : "5× IEEE Author across NLP, CV, sensors & GenAI ",
+    "published"   : "5× IEEE Author across NLP, CV, sensors & GenAI",
     "interests"   : [
-                      "RAG & LLM Systems",
-                      "Time Series & Predictive Maintenance", 
-                      "Computer Vision",
-                      "NLP & Multimodal AI",
+                      "Causal Inference & Experimentation",
+                      "Video Understanding & Temporal Modeling",
+                      "RAG & Agentic LLM Systems",
+                      "Time Series & Predictive Maintenance",
                       "Whatever hard problem lands next 🤷"
                     ],
-    "currently_building" : "Industrial AI + Aerospace GenAI pipelines",
-    "ask_me_about"       : "ML research, IEEE publishing, or breaking LLMs",
-    "fun_fact"           : "Ranked 354 / 75,000+ in Amazon ML Challenge "
+    "currently_building" : "Temporal video AI + causal user modeling research",
+    "ask_me_about"       : "why my RNN underperformed a simple baseline, and what that actually meant",
+    "fun_fact"           : "Ranked 354 / 75,000+ in Amazon ML Challenge"
 }
 ```
 
@@ -50,13 +50,32 @@ karthik = {
 
 <div align="center">
 
-| 🛩️ AeroManual-RAG | ⚙️ Predictive Maintenance |
+| 🎥 Temporal Video Understanding | 🎬 Causal OTT User Modeling |
 |---|---|
-| Advanced RAG pipeline over **2,223 pages** of FAA aerospace manuals | End-to-end **RUL prediction** for NASA turbofan engines |
-| Hybrid BM25 + FAISS · RRF Fusion · BGE Reranking | LSTM · TFT · Autoencoder Anomaly Detection |
-| **RAGAS Answer Relevancy: 0.875** ✅ | **LSTM RMSE: 15.42 · R² = 0.862** ✅ |
-| 16/16 pytest · FastAPI · Streamlit | SHAP Explainability · FastAPI Risk API |
-| [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/aeromanual-RAG) | [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/predictive-maintenance) |
+| Frame-pooling vs. CNN+LSTM/GRU vs. CLIP zero-shot, head to head on UCF101 | Predictive + causal + policy modeling on MovieLens 25M |
+| **96.11% Top-1** (simple avg-pool) — the RNN actually *underperformed* it, investigated down to the real cause instead of hidden | Hand-built IPW/AIPW causal estimators — **AIPW recovers the true effect almost exactly** |
+| Every run + Grad-CAM explainability on real Kaggle GPU kernels, zero shortcuts | 78 tests · 0 leakage violations verified on the real 25M-row table |
+| [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/temporal-video-understanding) | [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/causal-ott-user-modeling) |
+
+| 🛩️ AeroManual-RAG | 🕵️ FirmScout |
+|---|---|
+| Advanced RAG pipeline over **2,223 pages** of FAA aerospace manuals | Multi-agent system that autonomously researches any company |
+| Hybrid BM25 + FAISS · RRF Fusion · BGE Reranking | Finds AUM, deals & leadership — with confidence scoring and audit trails |
+| **RAGAS Answer Relevancy: 0.875** ✅ | Structured extraction, not just a chat wrapper |
+| [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/aeromanual-RAG) | [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/firmscout) |
+
+| ⚙️ Predictive Maintenance | 💹 Financial Sentiment API |
+|---|---|
+| End-to-end **RUL prediction** for NASA turbofan engines | Fine-tuned FinBERT sentiment API |
+| LSTM · TFT · Autoencoder Anomaly Detection | **88.57% accuracy** on Financial PhraseBank |
+| **LSTM RMSE: 15.42 · R² = 0.862** ✅ | SHAP Explainability · FastAPI Risk API |
+| [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/predictive-maintenance) | [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/karthik-1604/financial-sentiment-finbert-api) |
+
+</div>
+
+<div align="center">
+
+<sub>15 public repos total — <a href="https://github.com/karthik-1604?tab=repositories">see them all →</a></sub>
 
 </div>
 
@@ -81,7 +100,14 @@ karthik = {
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-**GenAI / RAG**
+**Causal Inference & Vision**
+
+![EconML](https://img.shields.io/badge/EconML-4B8BBE?style=for-the-badge)
+![DoWhy](https://img.shields.io/badge/DoWhy-2C3E50?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![CLIP](https://img.shields.io/badge/CLIP-000000?style=for-the-badge&logo=openai&logoColor=white)
+
+**GenAI / RAG / Agents**
 
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-00A67E?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
@@ -98,16 +124,19 @@ karthik = {
 
 ---
 
-## 📊 GitHub Stats
+## 📈 Evolution
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=karthik-1604&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthik-1604&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="165"/>
-</div>
+<sub>From fine-tuning one BERT model to a 5-domain research portfolio — real project timestamps, not a résumé narrative.</sub>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=karthik-1604&theme=tokyonight&hide_border=true" width="55%"/>
-</div>
+```mermaid
+timeline
+    title
+    Apr 2025 : NLP foundations — BERT + SNLI fine-tuning
+    Nov 2025 : Applied ML — mental-health signal detection : recommender systems
+    Feb 2026 : Finance & explainability — Basel II credit risk (PyTorch, SHAP) : FinBERT sentiment
+    May 2026 : Rapid diversification — computer vision : multi-agent systems : RAG (LangChain, FAISS) : time-series (LSTM, TFT)
+    Aug 2026 : Research depth — causal inference (EconML, DoWhy) : video understanding (CLIP, Grad-CAM) : quant/HFT modeling : agentic RAG benchmarks
+```
 
 ---
 
