@@ -126,7 +126,7 @@ karthik = {
 
 ## 📈 Evolution
 
-<sub>From fine-tuning one BERT model to a 5-domain research portfolio — real project timestamps, not a résumé narrative.</sub>
+<sub>From fine-tuning one BERT model to a 5-domain research portfolio.</sub>
 
 ```mermaid
 timeline
