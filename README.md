@@ -29,7 +29,7 @@
 ```python
 karthik = {
     "role"        : "ML Engineer · Data Scientist · Researcher",
-    "currently"   : "@ IIIT Naya Raipur — final year CSE",
+    "currently"   : "@ Logical Box",
     "published"   : "5× IEEE Author across NLP, CV, sensors & GenAI",
     "interests"   : [
                       "Causal Inference & Experimentation",
